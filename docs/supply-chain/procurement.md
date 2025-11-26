@@ -87,6 +87,34 @@ Purchase orders include:
 
 ## Supplier Performance Management
 
+### Supplier Evaluation & Selection Process
+
+```mermaid
+graph TD
+    A["🔍 Supplier<br/>Identification"] --> B["📋 Initial<br/>Screening"]
+    B --> C{Meets Basic<br/>Standards?}
+    C -->|No| D["❌ Rejected"]
+    C -->|Yes| E["💰 Request<br/>Quote"]
+    E --> F["📊 Evaluation<br/>Against Criteria"]
+    F --> G["📈 Scoring &<br/>Ranking"]
+    G --> H{Top<br/>Candidates?}
+    H -->|No| D
+    H -->|Yes| I["✅ Manager<br/>Approval"]
+    I --> J["📦 Place Trial<br/>Order"]
+    J --> K["🔍 Assess Actual<br/>Performance"]
+    K --> L{Trial<br/>Successful?}
+    L -->|No| M["⚠️ Feedback to<br/>Supplier"]
+    M --> N["Decision to<br/>Use or Reject"]
+    L -->|Yes| O["✅ Full<br/>Qualification"]
+    O --> P["📝 Contract<br/>Negotiation"]
+    P --> Q["📌 Add to Approved<br/>Supplier List"]
+
+    style D fill:#ffcdd2
+    style Q fill:#c8e6c9
+    style A fill:#e1f5ff
+    style I fill:#fff3cd
+```
+
 ### Performance Metrics
 
 Tracked monthly for each supplier:
@@ -140,7 +168,47 @@ Initiated by:
 
 Reviewed and approved by Purchasing Manager before release.
 
-### Inventory Control
+### Inventory Control Flow
+
+```mermaid
+graph LR
+    subgraph Warehouse["📦 Warehouse Management"]
+        REC["Receive<br/>Materials"]
+        INSPECT["Quality<br/>Check"]
+        FIFO["FIFO<br/>Rotation"]
+        TRACK["Track<br/>Shelf Life"]
+    end
+
+    subgraph Usage["🏭 Production Usage"]
+        PICK["Pick for<br/>Production"]
+        MONITOR["Monitor<br/>Levels"]
+        CYCLE["Monthly<br/>Cycle Count"]
+    end
+
+    subgraph Decision["⚡ Reorder Decision"]
+        LOW{Stock<br/>Low?}
+        EOQ["Calculate<br/>EOQ"]
+        PLAN["Planning<br/>Forecast"]
+        CREATE["Create<br/>PO"]
+    end
+
+    REC --> INSPECT
+    INSPECT --> FIFO
+    FIFO --> TRACK
+    TRACK --> MONITOR
+    MONITOR --> PICK
+    PICK --> CYCLE
+    CYCLE --> LOW
+    LOW -->|Yes| EOQ
+    LOW -->|No| MONITOR
+    EOQ --> PLAN
+    PLAN --> CREATE
+    CREATE --> REC
+
+    style REC fill:#e3f2fd
+    style CREATE fill:#fff3cd
+    style CYCLE fill:#e8f5e9
+```
 
 - **First-In, First-Out (FIFO)**: Standard rotation method
 - **Shelf Life Tracking**: Expiration dates marked and monitored

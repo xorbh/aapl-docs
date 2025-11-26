@@ -108,7 +108,33 @@ Mandatory when:
 - Clearing jams or blockages
 - Performing maintenance with guards removed
 
-### LOTO Steps
+### LOTO Steps & Procedure
+
+```mermaid
+graph TD
+    A["⚠️ Maintenance<br/>Required"] --> B["📣 Notify All<br/>Personnel"]
+    B --> C["🔴 Shutdown<br/>Equipment"]
+    C --> D["⚡ Isolate Energy<br/>Sources"]
+    D --> E["🔒 Install<br/>Lockout"]
+    E --> F["🏷️ Attach Tag with<br/>Worker Info"]
+    F --> G["🧪 Test Machine<br/>Cannot Start"]
+    G --> H{Energy<br/>Isolated?}
+    H -->|No| I["Return to<br/>Step D"]
+    H -->|Yes| J["🔧 Perform<br/>Maintenance Work"]
+    J --> K["🔍 Verify Work<br/>Completion"]
+    K --> L["🔐 Remove Locks<br/>by Authorized<br/>Worker"]
+    L --> M["Restore Guards &<br/>Safety Features"]
+    M --> N["✅ Equipment<br/>Ready for Use"]
+
+    style A fill:#ffebee
+    style G fill:#fff3cd
+    style J fill:#e3f2fd
+    style N fill:#c8e6c9
+    style D fill:#ffcdd2
+    style L fill:#ffebee
+```
+
+**Steps:**
 
 1. **Notification**: Inform all affected personnel of maintenance
 2. **Shutdown**: Turn off machine using normal procedure

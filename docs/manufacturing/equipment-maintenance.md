@@ -50,6 +50,42 @@ Maintained in computerized Maintenance Management System (MMS):
 
 ## Preventive Maintenance Program
 
+### PM Schedule Timeline
+
+```mermaid
+timeline
+    title Equipment Maintenance Schedule
+    section Daily Maintenance
+        Visual Inspection : Check for unusual conditions
+        Lubricant Levels : Check and top-up
+        Cleaning : Remove chips and debris
+
+    section Weekly Maintenance
+        Detailed Inspection : Critical components check
+        Lubrication Cycle : Specified lubrication points
+        Safety Verification : Guards and safety features
+
+    section Monthly Maintenance
+        Filter Check : Inspect and replace if needed
+        Fluid Analysis : Test hydraulic/cooling systems
+        Calibration : Precision checks
+
+    section Quarterly
+        Major Lubrication : Full system lubrication
+        Bearing Service : Inspection and adjustment
+        Alignment Check : Coupling verification
+
+    section Semi-Annual
+        Deep Cleaning : System deep clean
+        Seal Service : Scheduled replacements
+        Fluid Change : Hydraulic fluid replacement
+
+    section Annual
+        Major Overhaul : Critical component service
+        Paint Refresh : Rust prevention treatment
+        Electrical Test : Complete electrical check
+```
+
 ### PM Schedule
 
 All equipment subject to preventive maintenance based on:
@@ -120,6 +156,30 @@ Generated automatically 2 weeks before PM due date:
 - **Level 4 (Specialist)**: Vendor-specific equipment, engineering support, training
 
 ### Work Order Process
+
+```mermaid
+graph TD
+    A["📋 WO Generated<br/>by MMS"] --> B["👤 Assign to<br/>Technician"]
+    B --> C["📦 Gather Parts &<br/>Materials"]
+    C --> D["📅 Schedule with<br/>Production"]
+    D --> E["🔒 LOTO &<br/>Safety Setup"]
+    E --> F["🔧 Perform<br/>Maintenance"]
+    F --> G["✓ Verify<br/>Work Quality"]
+    G --> H{Work<br/>Acceptable?}
+    H -->|No| I["🔄 Rework or<br/>Fix Issues"]
+    I --> G
+    H -->|Yes| J["📝 Log Work<br/>Details"]
+    J --> K["👁️ Supervisor<br/>Review"]
+    K --> L["✅ Clear for<br/>Production"]
+    L --> M["📊 Update<br/>Equipment History"]
+
+    style A fill:#e3f2fd
+    style L fill:#c8e6c9
+    style H fill:#fff3cd
+    style E fill:#ffebee
+```
+
+**Steps:**
 
 1. **Generation**: MMS creates PM work order automatically
 2. **Preparation**: Technician reviews work order and gathers materials

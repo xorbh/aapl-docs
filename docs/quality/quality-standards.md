@@ -20,6 +20,40 @@ Annual audits are conducted to maintain certification status.
 ![Quality Inspection](https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80)
 *Quality control technician performing detailed inspection*
 
+### Quality Control Workflow
+
+```mermaid
+graph LR
+    subgraph "Incoming" ["🏭 Incoming Material"]
+        IQC["IQC Inspection"]
+    end
+    subgraph "Production" ["📦 During Production"]
+        FAI["First Article<br/>Inspection"]
+        IPQC["In-Process<br/>Quality Check"]
+    end
+    subgraph "Outgoing" ["✅ Final Stage"]
+        FI["Final<br/>Inspection"]
+        PACK["Packaging &<br/>Labeling"]
+    end
+
+    IQC -->|Accept| FAI
+    IQC -->|Reject| REJECT1["Return to<br/>Supplier"]
+    FAI -->|Pass| IPQC
+    FAI -->|Fail| REWORK1["Rework or<br/>Scrap"]
+    IPQC -->|Pass| FI
+    IPQC -->|Fail| ADJUST["Adjust<br/>Process"]
+    ADJUST --> IPQC
+    FI -->|Pass| PACK
+    FI -->|Fail| REWORK2["Rework or<br/>Scrap"]
+    PACK --> SHIP["Ready for<br/>Shipment"]
+
+    style IQC fill:#fff3cd
+    style IPQC fill:#cfe2ff
+    style FI fill:#d1e7dd
+    style PACK fill:#d1e7dd
+    style SHIP fill:#198754,color:#fff
+```
+
 ### Incoming Material Inspection (IQC)
 
 All raw materials and purchased components require:
@@ -162,6 +196,33 @@ We maintain control charts for:
 Quarterly capability studies conducted on all critical characteristics.
 
 ## Non-Conformance Management
+
+### Non-Conformance Workflow
+
+```mermaid
+graph TD
+    A["⚠️ Non-Conformance<br/>Detected"] --> B["📋 Document NCR<br/>& Isolate Material"]
+    B --> C["🔍 Assess<br/>Severity"]
+    C --> D{Critical<br/>Defect?}
+    D -->|Yes| E["🚨 Immediate<br/>Escalation"]
+    D -->|No| F["📊 Risk<br/>Assessment"]
+    E --> G["👥 Notify Customers<br/>& Stakeholders"]
+    F --> H["🔎 Root Cause<br/>Analysis"]
+    G --> H
+    H --> I["✅ Develop<br/>Corrective Action"]
+    I --> J["🔧 Implement<br/>Temporary Fix"]
+    J --> K["📝 Implement<br/>Permanent Correction"]
+    K --> L["✔️ Verify<br/>Effectiveness"]
+    L --> M{Action<br/>Effective?}
+    M -->|Yes| N["📌 Close NCR &<br/>Document"]
+    M -->|No| H
+    N --> O["📚 Archive &<br/>Track Trends"]
+
+    style A fill:#ffcdd2
+    style E fill:#ff5252,color:#fff
+    style N fill:#c8e6c9
+    style O fill:#e1f5fe
+```
 
 ### Reporting
 

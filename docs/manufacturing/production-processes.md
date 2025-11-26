@@ -9,6 +9,34 @@ This document outlines the standard manufacturing processes used in our facility
 ![Manufacturing Facility](https://images.unsplash.com/photo-1513828583688-c52646db42da?w=800&q=80)
 *Modern manufacturing facility with organized production areas*
 
+### Overall Production Process
+
+```mermaid
+graph TD
+    A["📦 Raw Material<br/>Receiving"] --> B["🔍 Material<br/>Inspection"]
+    B --> C{Material<br/>Acceptable?}
+    C -->|Yes| D["📍 Store in<br/>Inventory"]
+    C -->|No| E["❌ Reject &<br/>Return"]
+    D --> F["⚙️ Equipment<br/>Setup"]
+    F --> G["✅ Setup<br/>Verification"]
+    G --> H["🏭 Production<br/>Run"]
+    H --> I["📊 Monitor &<br/>Record Data"]
+    I --> J["🔍 In-Process<br/>Inspection"]
+    J --> K{Quality<br/>OK?}
+    K -->|Yes| L["📦 Continue<br/>Production"]
+    K -->|No| M["⚠️ Stop & Adjust<br/>Process"]
+    M --> H
+    L --> N["✔️ Final<br/>Inspection"]
+    N --> O{Pass Final<br/>Check?}
+    O -->|Yes| P["📦 Package &<br/>Label"]
+    O -->|No| Q["♻️ Rework or<br/>Scrap"]
+    P --> R["✅ Ready for<br/>Shipment"]
+    style A fill:#e1f5ff
+    style R fill:#c8e6c9
+    style E fill:#ffcdd2
+    style Q fill:#ffcdd2
+```
+
 ### 1. Raw Material Preparation
 
 - **Material Inspection**: All incoming raw materials must be inspected against specifications
