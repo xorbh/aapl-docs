@@ -196,11 +196,11 @@ AAPL shall retain documented information about the information security risk tre
 **6.2 Information Security Objectives and Plans to achieve them**  
  AAPL shall establish information objectives at relevant functions and levels.  
 The information security objectives shall;  
-Be consistent with the information security policy  
-Be measurable  
-Take into account applicable information security requirements, and results from risk assessment and risk treatment;  
-Be communicated  
-Be updated as appropriate
+- Be consistent with the information security policy  
+- Be measurable  
+- Take into account applicable information security requirements, and results from risk assessment and risk treatment;  
+- Be communicated  
+- Be updated as appropriate
 
 AAPL shall retain documented information on the information security objectives. When planning how to achieve its information security objectives, AAPL shall determine:
 
@@ -220,17 +220,17 @@ AAPL shall determine and provide the resources needed for the establishment, imp
 
 **7.2 Competence**  
 AAPL Shall:  
-Determine the necessary competence of persons doing work under its control that affects its information security performance as per AA/QSP/04.  
-Ensue that these persons are competent on the basis of appropriate education, training or experience  
-Where applicable take actions to acquire the necessary competence and evaluate the effectiveness of the actions taken and  
-Retain appropriate documented information as evidence of competence.  
-Applicable actions are included for eg: the provision of training to the mentoring of or the reassignment of current employees; or the hiring or contracting of competent persons.
+- Determine the necessary competence of persons doing work under its control that affects its information security performance as per AA/QSP/04.  
+- Ensue that these persons are competent on the basis of appropriate education, training or experience  
+- Where applicable take actions to acquire the necessary competence and evaluate the effectiveness of the actions taken and  
+- Retain appropriate documented information as evidence of competence.  
+- Applicable actions are included for eg: the provision of training to the mentoring of or the reassignment of current employees; or the hiring or contracting of competent persons.
 
 **7.3 Awareness**  
 Persons doing work under AAPL shall be aware of:  
-Information security policy  
-Employees contribution to the effectiveness of the information security management system, including the benefits of improved information security performance: and  
-The implications of not conforming with the information security management system requirements.
+- Information security policy  
+- Employees contribution to the effectiveness of the information security management system, including the benefits of improved information security performance: and  
+- The implications of not conforming with the information security management system requirements.
 
 **7.4 Communication**  
 AAPL shall determine the need for internal and external communications relevant to the information security management system including:
@@ -261,19 +261,13 @@ The organization has established and maintained procedure AA/QSP/01 for controll
 
 Documents are controlled to ensure that:
 
-The documents are kept legible, dated (with dates of revision) identifiable, retrievable, and maintained in an orderly manner.
-
-The documents are prepared by the preparing authority and approved by the approving authority before distribution
-
-The documents are reviewed, revised as necessary, re-approved and distributed to all recipients whenever there is a change in the system. The changes and current revision status of documents are identified
-
-Documents of external origin necessary for the planning and operation are determined, identified and their distribution controlled to recipients. The revision status of external documents are verified as per Control of Document Procedure AA/QSP/01 and updated.
-
-Records required by the standard and determined by the organization are controlled for retention and disposal as given at 7.5.3
-
-Current documents with CONTROL COPY seal in Blue are made available at all locations as per distribution list for each document.
-
-Obsolete documents with OBSOLETE COPY seal in Red are removed from all locations by the recipients of documents and destroyed.
+- The documents are kept legible, dated (with dates of revision) identifiable, retrievable, and maintained in an orderly manner.
+- The documents are prepared by the preparing authority and approved by the approving authority before distribution
+- The documents are reviewed, revised as necessary, re-approved and distributed to all recipients whenever there is a change in the system. The changes and current revision status of documents are identified
+- Documents of external origin necessary for the planning and operation are determined, identified and their distribution controlled to recipients. The revision status of external documents are verified as per Control of Document Procedure AA/QSP/01 and updated.
+- Records required by the standard and determined by the organization are controlled for retention and disposal as given at 7.5.3
+- Current documents with CONTROL COPY seal in Blue are made available at all locations as per distribution list for each document.
+- Obsolete documents with OBSOLETE COPY seal in Red are removed from all locations by the recipients of documents and destroyed.
 
 **7.5.3 Control of documented information**
 
@@ -308,12 +302,12 @@ AAPL shall retain documented information of the results of the information secur
 **9.1 Monitoring, Measurement, Analysis and evaluation**  
 AAPL shall evaluate the information security performance and the effectiveness of the information security management system.  
 AAPL shall determine:  
-Process and procedures needs to be monitored and measured, including information security processes and controls  
-The methods for monitoring, measurement analysis and evaluation as applicable to ensure valid results  
-When the monitoring and measuring shall be performed  
-The designated person to monitor and measure  
-Evaluation and analysis of the monitoring and measuring activities  
-The designated person to analyze and evaluate the results of monitoring and measuring activities
+- Process and procedures needs to be monitored and measured, including information security processes and controls  
+- The methods for monitoring, measurement analysis and evaluation as applicable to ensure valid results  
+- When the monitoring and measuring shall be performed  
+- The designated person to monitor and measure  
+- Evaluation and analysis of the monitoring and measuring activities  
+- The designated person to analyze and evaluate the results of monitoring and measuring activities
 
 **9.2 Internal audit**   
 Procedure (**AA/QSP/14**) has established and documented to ensure that all aspects of ISMS are regularly audited for effectiveness in achieving the stated ISMS requirements.
@@ -365,14 +359,10 @@ Consequently monitor the effectiveness of the corrective action.
 The Effectiveness of ISMS implemented in AAPL has to be measured to get the reality. There are various aspects which have influence from ISMS, namely Business, Operations, awareness on Information Security and its value, Etc. These can be measured from various activities of business.   
 The parameters are listed below would throw light on reality check. 
 
-Continuous reduction in Non-Conformances (NC) (minor) in internal or external ISO27001 Audits. 
-
-Advantage in Business either through Business wins or better position in competition due to ISO27001 certification and effective demonstration of controls. 
-
-Higher Information Security awareness among Employees through no. of trainings. 
-
-Successful Disaster Recovery (DR) and Business Continuity Drills and Events. 
-
-Reduction (as close to Zero as possible) in Virus or any kind of Cyber Attacks. 
+- Continuous reduction in Non-Conformances (NC) (minor) in internal or external ISO27001 Audits. 
+- Advantage in Business either through Business wins or better position in competition due to ISO27001 certification and effective demonstration of controls. 
+- Higher Information Security awareness among Employees through no. of trainings. 
+- Successful Disaster Recovery (DR) and Business Continuity Drills and Events. 
+- Reduction (as close to Zero as possible) in Virus or any kind of Cyber Attacks. 
 
 Above metrics would be measured on a yearly basis.
