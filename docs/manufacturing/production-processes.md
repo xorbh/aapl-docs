@@ -75,6 +75,7 @@ Quality checks occur at these intervals:
 
 All production runs require:
 - Production log with timestamps
+- another one added
 - Operator initials and badge numbers
 - Equipment settings and adjustments
 - Any downtime or quality issues logged
