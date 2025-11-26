@@ -1,0 +1,28 @@
+site_name: Internal Docs Demo
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Product:
+      - Overview: product/overview.md
+      - Roadmap: product/roadmap.md
+  - Engineering:
+      - Architecture: engineering/architecture.md
+      - API Reference: engineering/api-reference.md
+      - Diagrams: engineering/diagrams.md
+  - Operations:
+      - Onboarding: operations/onboarding.md
+      - Checklists: operations/checklists.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.arithmatex
+  - pymdownx.details
+
+plugins:
+  - search
