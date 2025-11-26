@@ -6,9 +6,9 @@ AAPL has determined external and internal issues AA/ISMS/2 that are relevant to 
 **4.2 Understanding the needs and expectations of interested parties**
 
 The AAPL has determined:  
-      The list (AA/ISMS/2)of interested parties that is relevant to the Information Security Management System.   
-The list(AA/ISMS/2) is included the relevant needs and expectations (i.e. requirements) of these interested parties.  
-The list (AA/ISMS/2) of interested parties addresses the needs and expectations become its compliance obligations.
+- The list (AA/ISMS/2) of interested parties that is relevant to the Information Security Management System.   
+- The list (AA/ISMS/2) is included the relevant needs and expectations (i.e. requirements) of these interested parties.  
+- The list (AA/ISMS/2) of interested parties addresses the needs and expectations become its compliance obligations.
 
 **4.3 Determining the scope of the Information security management system** 
 
@@ -31,18 +31,14 @@ The Management of **ANKIT AEROSPACE PVT LTD** (AAPL) is committed to minimize In
 **5.1 Leadership and commitment**  
 The top management has established leadership and commitment with respect to Information Security Management System by:
 
-Ensuring the information security policy and information security objectives are established and are compatible with the strategic direction of the organization  
-Ensuring the integration of the information security management system requirements into AAPL processes  
-Ensuring that the resources needed for the information security management system are available
-
-Communicating the importance of effective information security management and conforming to the information security management system requirements.    
-Ensuring that the information security management system achieves the intended outcome by reviewing information security reports during management review meetings and provide required guidance based on the review. (Ref: MOMs)
-
-Direct and support staff to contribute to effectiveness of the information security management system.  
-
-Always giving importance to continual improvement on regular basis
-
-Encourage higher management roles to demonstrate information security control effectiveness and conformance to the same on all opportunities.
+- Ensuring the information security policy and information security objectives are established and are compatible with the strategic direction of the organization  
+- Ensuring the integration of the information security management system requirements into AAPL processes  
+- Ensuring that the resources needed for the information security management system are available
+- Communicating the importance of effective information security management and conforming to the information security management system requirements.    
+- Ensuring that the information security management system achieves the intended outcome by reviewing information security reports during management review meetings and provide required guidance based on the review. (Ref: MOMs)
+- Direct and support staff to contribute to effectiveness of the information security management system.  
+- Always giving importance to continual improvement on regular basis
+- Encourage higher management roles to demonstrate information security control effectiveness and conformance to the same on all opportunities.
 
 Top management shall approve and establish the “Information Security Policy” for the organization and publish the same that is applicable to all in scope. (Clause 5.2)  Ref Information Security Policy document
 
@@ -64,18 +60,13 @@ Top management shall approve and establish the “Information Security Policy”
 
 All employees and stakeholders of  AAPL shall adhere to the following: 
 
-Develop and implement measurable policies and processes while considering the protection of the organization’s information assets , information processes  from all threats both internal and external. 
-
-Continually improve the Information Security Management System through the establishment and regular review of measurable security objectives at relevant functions and levels of the organization. 
-
-Information security policy available in AA/ISMS/3 as documented information. 
-
-Information security policy and objectives communicated within the organization
-
-Communicate all pertinent security policies to Customers, Employees and other interested parties as applicable.  
-All policies related to information security should be reviewed and  approved by the management. 
-
-The review of policies shall be done through the MRM process and when the changes received 
+- Develop and implement measurable policies and processes while considering the protection of the organization's information assets , information processes  from all threats both internal and external. 
+- Continually improve the Information Security Management System through the establishment and regular review of measurable security objectives at relevant functions and levels of the organization. 
+- Information security policy available in AA/ISMS/3 as documented information. 
+- Information security policy and objectives communicated within the organization
+- Communicate all pertinent security policies to Customers, Employees and other interested parties as applicable.  
+- All policies related to information security should be reviewed and  approved by the management. 
+- The review of policies shall be done through the MRM process and when the changes received 
 
 **5.3 Organizational roles responsibilities and authorities**
 
@@ -85,17 +76,12 @@ The AAPL should appoint a Chief  Information Security officer who takes the over
 
 **Responsibility :** 
 
-Monitoring the Implementation and maintenance of ISMS in the organization and providing resources.
-
-Provision of resources like required information security processes , assets and human resources and financial resources for the continual improvement.
-
-Chair the Management Review Meetings
-
-Highest point of escalation for all information security related matters of the organization.
-
-Authorizing the Information Security Policy
-
-Authorizing the Information Security Management Objective.
+- Monitoring the Implementation and maintenance of ISMS in the organization and providing resources.
+- Provision of resources like required information security processes , assets and human resources and financial resources for the continual improvement.
+- Chair the Management Review Meetings
+- Highest point of escalation for all information security related matters of the organization.
+- Authorizing the Information Security Policy
+- Authorizing the Information Security Management Objective.
 
 **Chief Information Security Officer (CISO)**
 
@@ -116,32 +102,22 @@ Authorizing the Information Security Management Objective.
 
 **Head of Departments** 
 
-Monitor progress of implementation and maintenance of  ISMS in the department
-
-Preparation of Information Security Management Programme, monitor progress and report to management on short falls and take corrective action
-
-Analysis of root cause of non-conformance and take appropriate corrective and preventive action
-
-Impart training on ISMS to the employees 
-
-Members of MRM team 
-
-Identify legal and other requirements to which organization subscribes
+- Monitor progress of implementation and maintenance of  ISMS in the department
+- Preparation of Information Security Management Programme, monitor progress and report to management on short falls and take corrective action
+- Analysis of root cause of non-conformance and take appropriate corrective and preventive action
+- Impart training on ISMS to the employees 
+- Members of MRM team 
+- Identify legal and other requirements to which organization subscribes
 
 **HOD HR** 
 
-Monitor training programme on ISMS
-
-Identification of training programme and faculty
-
-Provision of resources for training
-
-Evaluation of effectiveness of training
-
-Identify legal and other requirements to which organization subscribes
-
-Authorizing Training Plan  
-Authorizing Legal Register
+- Monitor training programme on ISMS
+- Identification of training programme and faculty
+- Provision of resources for training
+- Evaluation of effectiveness of training
+- Identify legal and other requirements to which organization subscribes
+- Authorizing Training Plan  
+- Authorizing Legal Register
 
 **ORGANISATION CHART**  
 Enclosed in Annexure –I
@@ -172,52 +148,48 @@ Enclosed in Annexure –I
       **6.1.1 General**  
 When planning for the information security management system, AAPL shall consider the issues referred in 4.1 and the requirements referred in 4.2 and determine the risks and opportunities that need to be addressed to: 
 
-Ensure the information security management system can achieve its intended outcome(s)  
-Prevent, or reduce, undesired effects; and   
-Achieve continual improvement
+- Ensure the information security management system can achieve its intended outcome(s)  
+- Prevent, or reduce, undesired effects; and   
+- Achieve continual improvement
 
 AAPL shall plan:  
-Actions to address these risks and opportunities: and how to  
-Integrate and implement the actions into its information security management system processes; and  
-Evaluate the effectiveness of these action
+- Actions to address these risks and opportunities: and how to  
+- Integrate and implement the actions into its information security management system processes; and  
+- Evaluate the effectiveness of these action
 
 **6.1.2 Information security risk assessment**  
 AAPL shall apply an information security risk assessment process that as defined in AA/ISMS/P/07
 
-Establishes and maintains information security risk criteria that include;  
-The risk acceptance criteria; and  
-Criteria for performing information security risk assessments
+**Establishes and maintains information security risk criteria that include:**  
+- The risk acceptance criteria; and  
+- Criteria for performing information security risk assessments
 
-Ensures that repeated information security risk assessments produce consistent, valid and comparable results;
+**Ensures that repeated information security risk assessments produce consistent, valid and comparable results;**
 
-Identifies the information security risks;  
-Apply information security risk assessment process to identify risks associated with the loss of confidentiality, integrity and availability for information within the scope of the information security management system; and  
-Identify risk owners;\`
+**Identifies the information security risks:**  
+- Apply information security risk assessment process to identify risks associated with the loss of confidentiality, integrity and availability for information within the scope of the information security management system; and  
+- Identify risk owners;
 
-Analyses the information risks;  
-Assess the potential consequences that would result if the risk identified were to materialize  
-Assess the realistic likelihood of the occurrence of the risks identified  
-Determine the level of risk;
+**Analyses the information risks:**  
+- Assess the potential consequences that would result if the risk identified were to materialize  
+- Assess the realistic likelihood of the occurrence of the risks identified  
+- Determine the level of risk;
 
-Evaluate the information security risks.  
-Compare the results of risk analysis with the risk criteria established   
-Prioritize the analyzed risks for risk treatment
+**Evaluate the information security risks:**  
+- Compare the results of risk analysis with the risk criteria established   
+- Prioritize the analyzed risks for risk treatment
 
 AAPL shall retain documented information about the information security risk assessment process.
 
 **6.1.3 Information security risk treatment**  
 AAPL shall apply an information security risk treatment process as defined in AA/ISMS/P/07.
 
-Select appropriate information security risk treatment options, taking account of the risk assessment results
-
-Determine all controls that are necessary to implement the information security risk treatment option(s) chosen;
-
-Compare the controls determined in 6.1.3 b, above with those in Annex A verify that no necessary controls have been omitted;
-
-The statement of applicability (SOA) documented in AA/IT/F/02 provides summary of a mapping between ISO27001:2013 control objectives and controls, controls chosen for AAPL Bangalore, based on contractual, legal, business requirement, best practices and risk assessment and their justifications. The SOA may make references to policies, procedures or other documentation or systems reflecting the actual manifestation of the control.  
-Formulate a information security risk treatment plan;
-
-Obtain risk owner’s approval of the information security risk treatment plan and acceptance of the residual information security risks.
+- Select appropriate information security risk treatment options, taking account of the risk assessment results
+- Determine all controls that are necessary to implement the information security risk treatment option(s) chosen;
+- Compare the controls determined in 6.1.3 b, above with those in Annex A verify that no necessary controls have been omitted;
+- The statement of applicability (SOA) documented in AA/IT/F/02 provides summary of a mapping between ISO27001:2013 control objectives and controls, controls chosen for AAPL Bangalore, based on contractual, legal, business requirement, best practices and risk assessment and their justifications. The SOA may make references to policies, procedures or other documentation or systems reflecting the actual manifestation of the control.  
+- Formulate a information security risk treatment plan;
+- Obtain risk owner's approval of the information security risk treatment plan and acceptance of the residual information security risks.
 
 AAPL shall retain documented information about the information security risk treatment process.
 
