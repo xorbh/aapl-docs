@@ -1,28 +1,9 @@
-site_name: Internal Docs Demo
+site_name: Manufacturing Documentation Portal
 theme:
   name: material
-nav:
-  - Home: index.md
-  - Product:
-      - Overview: product/overview.md
-      - Roadmap: product/roadmap.md
-  - Engineering:
-      - Architecture: engineering/architecture.md
-      - API Reference: engineering/api-reference.md
-      - Diagrams: engineering/diagrams.md
-  - Operations:
-      - Onboarding: operations/onboarding.md
-      - Checklists: operations/checklists.md
-  - Manufacturing:
-      - Production Processes: manufacturing/production-processes.md
-      - Production Scheduling: manufacturing/production-scheduling.md
-      - Equipment Maintenance: manufacturing/equipment-maintenance.md
-  - Quality:
-      - Quality Standards: quality/quality-standards.md
-  - Supply Chain:
-      - Procurement: supply-chain/procurement.md
-  - Safety:
-      - Workplace Safety: safety/workplace-safety.md
+# Navigation is auto-generated from directory structure
+# Files are discovered automatically - no manual nav updates needed
+# Order is alphabetical by filename
 
 markdown_extensions:
   - admonition

@@ -9,10 +9,7 @@ primary_region = "sjc"
 web = "/bin/sh -c 'cd /app && mkdocs serve -a 0.0.0.0:8080'"
 
 [build]
-  image = "aapl-docs:latest"
-
-[build.dockerfile]
-  path = "Dockerfile.fly"
+  dockerfile = "Dockerfile.fly"
 
 [[services]]
   internal_port = 8080
@@ -46,14 +43,6 @@ web = "/bin/sh -c 'cd /app && mkdocs serve -a 0.0.0.0:8080'"
     path = "/"
     protocol = "http"
     timeout = "2s"
-
-[[mounts]]
-  source = "gitea_data"
-  destination = "/data"
-
-[[mounts]]
-  source = "docs_site"
-  destination = "/site"
 
 [env]
   MKDOCS_CONFIG = "mkdocs.yml"
