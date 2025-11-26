@@ -1,8 +1,8 @@
-# Product Overview
+# Manufacturing Standards & Product Specifications
 
 ## Introduction
 
-This document provides a comprehensive overview of our product portfolio, manufacturing capabilities, and quality standards.
+This document outlines our manufacturing standards, product specifications, and production capabilities. All products are manufactured in accordance with applicable quality and safety standards.
 
 ## Product Categories
 
@@ -104,59 +104,41 @@ We offer fully customized manufacturing solutions including:
 - Just-in-time delivery
 - Inventory management
 
-## Customer Support
+## Production Documentation
 
-### Technical Services
+### Standard Operating Procedures
 
-- Application engineering support
-- Process troubleshooting
-- Quality consulting
-- Supply chain optimization
-- Training and development
+All production activities follow documented standard operating procedures (SOPs) maintained in the Operations section of this documentation portal.
 
-### Customer Portal
+### Work Instructions
 
-Access our online portal for:
-- Order tracking
-- Inventory visibility
-- Technical documentation
-- Quality reports
-- Invoice and shipping information
+Detailed work instructions are available for:
+- Each manufacturing process
+- Equipment operation and maintenance
+- Quality inspection procedures
+- Assembly and testing protocols
+- Packaging and labeling
 
-## Capacity & Lead Times
+See the Operations and Manufacturing sections for complete work instructions.
 
-### Production Capacity
+## Production Capacity
+
+### Capability Summary
 
 - **Standard Parts**: 1,000-50,000 pieces/month
 - **Custom Parts**: 100-10,000 pieces/month
-- **Rush Orders**: Available with expedite fee
-- **Long-term Programs**: Custom capacity planning
+- **Production Scheduling**: See manufacturing/production-scheduling.md
+- **Equipment Utilization**: See manufacturing/equipment-maintenance.md
 
-### Typical Lead Times
+## Related Documentation
 
-| Product Type | Lead Time |
-|--------------|-----------|
-| Standard (stock) | 1-2 weeks |
-| Semi-custom | 2-3 weeks |
-| Custom/Complex | 4-6 weeks |
-| Expedited | Available |
-
-## Pricing & Terms
-
-### Quotation Process
-
-1. Submit drawings or specifications
-2. Design review and manufacturability analysis
-3. Quote generation with multiple options
-4. Negotiation and final approval
-5. Purchase order and scheduling
-
-### Payment Terms
-
-- Standard: Net 30
-- Volume discounts: Available
-- Long-term agreements: Custom terms
-- Rush orders: Prepayment may apply
+For detailed information, refer to:
+- **Production Processes**: manufacturing/production-processes.md
+- **Production Scheduling**: manufacturing/production-scheduling.md
+- **Equipment Maintenance**: manufacturing/equipment-maintenance.md
+- **Quality Standards**: quality/quality-standards.md
+- **Workplace Safety**: safety/workplace-safety.md
+- **Procurement**: supply-chain/procurement.md
 
 ## Environmental Commitment
 
@@ -175,43 +157,23 @@ Access our online portal for:
 - Reduced packaging materials
 - Responsible disposal of hazardous materials
 
-## Market Applications
+## Application Areas
 
-Our products serve customers in:
+Our manufacturing capabilities serve the following industries:
 
 - **Automotive**: Engine components, suspension parts
 - **Aerospace**: Structural components, fasteners
 - **Industrial Machinery**: Transmission components, mechanical assemblies
 - **Medical Devices**: Precision components, instruments
 - **Electronics**: Heat sinks, brackets, housings
-- **General Industry**: Custom components across all sectors
+- **General Manufacturing**: Custom components across all sectors
 
-## Company History
+## Compliance & Documentation
 
-Founded in [year], we have grown to become a trusted manufacturing partner for hundreds of customers worldwide. Our commitment to quality, innovation, and customer service drives our success.
+All manufacturing activities comply with:
+- **ISO 9001:2015** - Quality Management System
+- **ISO 14001:2015** - Environmental Management
+- **ISO 45001:2018** - Occupational Health & Safety
+- **AS9100** - Aerospace standards (where applicable)
 
-## Contact Information
-
-**Sales Department**
-- Phone: [number]
-- Email: sales@company.com
-- Hours: Monday-Friday, 8AM-5PM
-
-**Technical Support**
-- Phone: [number]
-- Email: engineering@company.com
-
-**Customer Service**
-- Phone: [number]
-- Email: service@company.com
-
-**Emergency/After-Hours**
-- Phone: [number]
-
-## Additional Resources
-
-- Product Datasheets: [Link]
-- Technical Specifications: [Link]
-- Quality Documents: [Link]
-- Environmental Reports: [Link]
-- Case Studies: [Link]
+Documentation of compliance is maintained throughout this portal.

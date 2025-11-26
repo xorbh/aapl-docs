@@ -1,0 +1,59 @@
+# fly.toml file generated for your documentation site
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+
+app = "aapl-docs"
+primary_region = "sjc"
+
+# Processes
+[processes]
+web = "/bin/sh -c 'cd /app && mkdocs serve -a 0.0.0.0:8080'"
+
+[build]
+  image = "aapl-docs:latest"
+
+[build.dockerfile]
+  path = "Dockerfile.fly"
+
+[[services]]
+  internal_port = 8080
+  processes = ["web"]
+  protocol = "tcp"
+  script_checks = []
+
+  [services.concurrency]
+    hard_limit = 25
+    soft_limit = 20
+    type = "connections"
+
+  [[services.ports]]
+    force_https = true
+    handlers = ["http"]
+    port = 80
+
+  [[services.ports]]
+    handlers = ["tls", "http"]
+    port = 443
+
+  [[services.tcp_checks]]
+    grace_period = "5s"
+    interval = "15s"
+    timeout = "2s"
+
+  [[services.http_checks]]
+    interval = "10s"
+    grace_period = "5s"
+    method = "get"
+    path = "/"
+    protocol = "http"
+    timeout = "2s"
+
+[[mounts]]
+  source = "gitea_data"
+  destination = "/data"
+
+[[mounts]]
+  source = "docs_site"
+  destination = "/site"
+
+[env]
+  MKDOCS_CONFIG = "mkdocs.yml"

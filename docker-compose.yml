@@ -1,0 +1,88 @@
+version: '3.8'
+
+services:
+  # Gitea - Git server with GitHub-like UI
+  gitea:
+    image: gitea/gitea:latest
+    container_name: gitea
+    environment:
+      - USER_UID=1000
+      - USER_GID=1000
+      - GITEA__database__DB_TYPE=sqlite3
+      - GITEA__database__PATH=/data/gitea/gitea.db
+      - GITEA__server__ROOT_URL=http://your-domain.com:3000/
+      - GITEA__server__HTTP_PORT=3000
+    restart: always
+    volumes:
+      - gitea_data:/data
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - "3000:3000"
+      - "222:22"
+    networks:
+      - docs_network
+
+  # PostgreSQL database (optional, but recommended for production)
+  # Uncomment to use PostgreSQL instead of SQLite
+  # postgres:
+  #   image: postgres:15
+  #   container_name: gitea_db
+  #   environment:
+  #     POSTGRES_DB: gitea
+  #     POSTGRES_USER: gitea
+  #     POSTGRES_PASSWORD: your_secure_password
+  #   volumes:
+  #     - postgres_data:/var/lib/postgresql/data
+  #   restart: always
+  #   networks:
+  #     - docs_network
+
+  # Nginx - Serves the built MkDocs site
+  nginx:
+    image: nginx:alpine
+    container_name: docs_nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - docs_site:/usr/share/nginx/html/docs:ro
+      - ./ssl:/etc/nginx/ssl:ro  # For SSL certificates
+    depends_on:
+      - gitea
+    restart: always
+    networks:
+      - docs_network
+
+  # Auto-build service - Watches for changes and rebuilds docs
+  docs-builder:
+    build:
+      context: .
+      dockerfile: Dockerfile.builder
+    container_name: docs_builder
+    environment:
+      - GITEA_URL=http://gitea:3000
+      - REPO_PATH=/repo
+      - SITE_PATH=/site
+      - GIT_REPO=http://gitea:3000/your-user/your-repo.git
+    volumes:
+      - gitea_repo:/repo
+      - docs_site:/site
+      - ./build.sh:/build.sh:ro
+    depends_on:
+      - gitea
+    restart: always
+    networks:
+      - docs_network
+    command: /build.sh
+
+volumes:
+  gitea_data:
+  gitea_repo:
+  docs_site:
+  postgres_data:
+
+networks:
+  docs_network:
+    driver: bridge

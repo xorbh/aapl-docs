@@ -37,32 +37,184 @@ graph TD
     style Q fill:#ffcdd2
 ```
 
-### 1. Raw Material Preparation
+### 1. Raw Material Preparation & Receiving
 
-- **Material Inspection**: All incoming raw materials must be inspected against specifications
-- **Storage**: Materials stored in designated areas maintaining proper temperature and humidity
-- **Handling**: Use appropriate equipment (forklifts, pallet jacks) for material movement
-- **Documentation**: Log all material batches in the inventory management system
+#### Material Receiving Process
 
-![Material Handling](https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80)
-*Proper material handling and storage procedures*
+**Step 1: Receiving Documentation**
+1. Check purchase order (PO) against delivery receipt
+2. Verify supplier name and part numbers match PO
+3. Record date/time of delivery
+4. Count and verify quantities match PO
 
-### 2. Setup Phase
+**Step 2: Visual Inspection**
+1. Inspect packaging for damage or contamination
+2. Check for proper labeling and traceability information
+3. Verify lot/batch numbers are visible
+4. Look for any signs of environmental damage (moisture, rust, etc.)
 
-- Verify all equipment is operational and calibrated
-- Install proper tooling and fixtures
-- Perform setup test runs with quality verification
-- Document setup completion and approval by shift supervisor
+**Step 3: Quality Sample Inspection**
+- For each unique material type, inspect minimum 10% sample (minimum 5 pieces)
+- Check dimensions against specification sheets
+- Verify material hardness/properties if certification required
+- Visual surface inspection for defects or discoloration
+- Document results on material inspection form
 
-### 3. Production Run
+**Step 4: Material Storage**
+- Transport material to designated storage area using appropriate equipment
+- Store materials on clean, dry pallets in racked storage
+- Organize by material type and lot number for FIFO rotation
+- Update inventory management system immediately
+- Maintain storage temperature 65-75°F, humidity 40-50% where applicable
+- Segregate different material types to prevent cross-contamination
 
-![CNC Manufacturing](https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&q=80)
-*Precision CNC machinery in operation*
+**Step 5: Receiving Documentation Completion**
+- Inspector signs off on material acceptance or rejection
+- Attach certificates of conformance to material batch record
+- File receiving documentation in material history folder
+- If rejected, initiate return authorization with supplier
 
-- Follow equipment-specific operating procedures
-- Monitor production metrics continuously
-- Record production data at defined intervals
-- Maintain cleanliness and organization of work area
+#### Material Preparation for Production
+1. Retrieve material from storage per production schedule
+2. Verify lot number matches work order specification
+3. If required, mill material to approximate size for first machine setup
+4. Clean material surface to remove dust, oil, or contaminants
+5. Cut material into lengths or pieces per drawing specifications
+6. Stage prepared material at machine area 1 hour before production start
+
+### 2. Equipment Setup & Verification Phase
+
+#### Pre-Setup Equipment Inspection
+- Verify equipment powered off and secured with LOTO if needed
+- Inspect all guards and safety devices for proper function
+- Check coolant levels and condition
+- Verify spindle rotation freely with no binding
+- Clean work area of chips and debris from previous job
+
+#### Tooling Installation
+1. Gather all required tools per setup sheet
+2. Verify tool part numbers match setup documentation
+3. Install primary cutting tools in correct turrets/magazines
+4. Install backup/secondary tools as specified
+5. Verify tool offsets loaded in CNC program
+6. Physically measure tool heights if not pre-set
+
+#### Fixture & Work Holding Setup
+1. Install correct chuck, vise, or fixture for part geometry
+2. Verify fixture is clamped securely and torqued to specification
+3. Test clamping force with hand—verify no slippage
+4. Check that work pieces can be loaded and unloaded safely
+5. Ensure no interference with cutting path or spindle
+
+#### Program Verification
+1. Load CNC program from memory or USB drive
+2. Verify program name matches work order requirements
+3. Perform dry run cycle without material (rapid traverse only)
+4. Verify tool path doesn't interfere with setup
+5. Check all axis motions are smooth and proper direction
+6. Verify spindle starts/stops correctly
+
+#### Safety Guards & Features
+1. Reinstall all safety guards and interlocks
+2. Test emergency stop button functions properly
+3. Verify door interlocks operate correctly
+4. Confirm all warning lights and alarms respond
+5. Check that guards don't interfere with normal operation
+
+#### Setup Approval & Documentation
+1. Supervisor verifies complete setup
+2. Equipment ready notification given to production
+3. Setup person signs off on checklist with time/date
+4. Work order moved to "Ready for FAI" status
+
+### 3. First Article Inspection (FAI)
+
+#### FAI Purpose & Requirements
+- Verify first part produced meets all engineering requirements
+- Validate CNC program and setup before full production run
+- Document baseline for comparison to subsequent parts
+- Sign-off by quality and production before continuing
+
+#### FAI Procedure
+1. Produce first article part following normal production sequence
+2. Cool part to room temperature (minimum 15 minutes)
+3. Remove part and perform visual inspection:
+   - No cracks, chips, or damage
+   - Surface finish appears acceptable
+   - No visible burrs or sharp edges
+4. Measure all critical dimensions with precision instruments:
+   - Use calibrated calipers, micrometers, or CMM as required
+   - Compare to drawing specifications
+   - Document measurements on FAI form
+5. If equipped, perform functional tests:
+   - Test fit assembly (if applicable)
+   - Verify movement/articulation
+   - Check load-bearing capacity if specified
+6. Quality inspector signs off on FAI results
+7. If any dimensions out of tolerance:
+   - Stop production immediately
+   - Adjust tool offsets or parameters
+   - Produce another first article for inspection
+   - Do not proceed until FAI passes
+
+### 4. Full Production Run
+
+#### Pre-Production Verification
+- Confirm FAI completed and approved
+- Verify material lot number still correct
+- Reload first article into chuck/fixture to verify repeatability
+- Produce 5 consecutive parts and verify consistency
+- Document first 5 parts pass quality inspection
+
+#### Continuous Production Operation
+1. Load first work piece into fixture
+2. Close all guards and interlocks
+3. Press cycle start button
+4. Monitor machine operation during complete cycle
+5. Machine automatically unloads finished part
+6. Automatically loads next part if automated feeder active
+7. Operator removes finished part and visually inspects
+8. Check part dimensions using go/no-go gages every 25th part
+9. Record production time and part count every hour
+10. Maintain tool offsets and adjust if drift detected
+
+#### Production Run Monitoring
+- **Visual Inspection**: Every 25 parts during production
+- **Gage Check**: Every 50 parts or per specification
+- **Surface Finish**: Every 100 parts or when tool wear suspected
+- **Environmental Check**: Coolant condition, spindle temperature, vibration levels
+- **Operator Presence**: Operator remains in area and monitors machine
+- **Work Area Maintenance**: Clear chips/debris every 30 minutes
+
+#### Production Data Recording
+Log the following at minimum every hour:
+- Time period (10:00 AM - 11:00 AM, etc.)
+- Number of parts produced
+- Number of parts scrapped (with reason)
+- Number of parts reworked
+- Equipment downtime (if any)
+- Maintenance performed
+- Tool changes made
+- Any quality issues
+- Operator initials
+- Machine readings (temperature, pressure, etc.)
+
+#### Tool Wear & Replacement
+- Monitor cutting tool wear continuously
+- If parts begin showing chatter marks or poor surface finish, tool may be worn
+- Replace tool following manufacturer recommendations
+- Update tool offset after replacement
+- Produce test piece to verify new tool setup
+- Document tool change time and tool ID number
+
+#### Production Completion
+- Verify final part count matches work order quantity
+- Account for all scrapped/reworked parts
+- Perform final part inspection
+- Complete final production log entry with totals
+- Clean machine and work area
+- Stage finished parts in designated area for inspection
+- Move work order to "Complete" status
 
 ### 4. Quality Checkpoints
 

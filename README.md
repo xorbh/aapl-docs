@@ -1,17 +1,32 @@
-# Internal Documentation Demo
+# Manufacturing Documentation Repository
 
-This repository demonstrates a clean setup for internal documentation using:
+This repository contains comprehensive manufacturing documentation including standards, manuals, and work instructions.
 
-- Markdown files
-- MkDocs with Material theme
-- GitHub Pages auto-deployment
+## Documentation Structure
 
-📚 View all docs inside the `docs/` directory.  
-🌐 After enabling GitHub Pages, your documentation site will appear automatically.
+- **Manufacturing Standards** ➜ `docs/product/` & `docs/quality/`
+- **Equipment & Operations Manuals** ➜ `docs/manufacturing/` & `docs/engineering/`
+- **Work Instructions & Procedures** ➜ `docs/operations/`
+- **Safety & Compliance** ➜ `docs/safety/`
+- **Supply Chain** ➜ `docs/supply-chain/`
 
-## Sections
+## Key Documents
 
-- Product Docs ➜ `docs/product/`
-- Engineering Docs ➜ `docs/engineering/`
-- Operations Docs ➜ `docs/operations/`
+### Standards
+- Quality Standards (ISO 9001, AS9100)
+- Equipment Specifications
+- Safety Requirements
+
+### Manuals
+- Production Process Manuals
+- Equipment Operation Guides
+- Equipment Maintenance Procedures
+
+### Work Instructions
+- Production Scheduling Procedures
+- Onboarding Checklists
+- Standard Operating Procedures (SOPs)
+
+📚 Full documentation is in the `docs/` directory.
+🌐 Documentation is published and available at [your-docs-site-url].
 
