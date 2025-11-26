@@ -19,6 +19,8 @@ This work instruction provides detailed procedures for operating precision grind
 
 **Personnel**: Trained grinding operators and supervisors
 
+Made this change
+
 ---
 
 ## Before You Start
