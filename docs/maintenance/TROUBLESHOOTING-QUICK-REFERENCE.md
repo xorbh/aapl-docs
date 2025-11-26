@@ -27,7 +27,7 @@ This quick reference helps you diagnose and fix common equipment problems quickl
 | **Emergency stop** | E-stop button active (pulled) | Release/reset E-stop button |
 | **Control panel** | No response to any button | Check power cord at wall outlet |
 
-**If still not on**: Call maintenance immediately
+**If still not on**: Call maintenance immediately on 742233444
 
 ---
 
