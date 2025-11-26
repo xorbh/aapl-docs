@@ -13,6 +13,16 @@ nav:
   - Operations:
       - Onboarding: operations/onboarding.md
       - Checklists: operations/checklists.md
+  - Manufacturing:
+      - Production Processes: manufacturing/production-processes.md
+      - Production Scheduling: manufacturing/production-scheduling.md
+      - Equipment Maintenance: manufacturing/equipment-maintenance.md
+  - Quality:
+      - Quality Standards: quality/quality-standards.md
+  - Supply Chain:
+      - Procurement: supply-chain/procurement.md
+  - Safety:
+      - Workplace Safety: safety/workplace-safety.md
 
 markdown_extensions:
   - admonition
