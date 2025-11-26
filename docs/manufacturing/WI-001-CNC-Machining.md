@@ -43,39 +43,69 @@ This work instruction provides step-by-step procedures for operating CNC machini
 ## Pre-Operation Checklist (5-10 minutes)
 
 ### Step 1: Secure Work Area
-1. Verify machine is idle and powered off
-2. Check that LOTO tag is present (if applicable)
-3. Remove any chips or debris from previous job
-4. Clear work area of obstructions
+- [ ] Machine is idle and powered off
+- [ ] LOTO tag is present and verified (if applicable)
+- [ ] All chips and debris from previous job removed
+- [ ] Work area cleared of obstructions and tools
+- [ ] Floor area around machine is clean and dry
+- [ ] Adequate lighting in work area
 
 ### Step 2: Visual Equipment Inspection
-- [ ] No visible cracks, damage, or rust
-- [ ] All guards and doors secure
-- [ ] No loose fasteners or wires
-- [ ] Coolant level adequate (fill if low)
-- [ ] No fluid leaks under machine
+- [ ] No visible cracks, damage, or rust on machine structure
+- [ ] All guards and doors secure and properly latched
+- [ ] No loose fasteners, bolts, or wires visible
+- [ ] Coolant level adequate (fill if low, record level)
+- [ ] No fluid leaks under machine or at connections
+- [ ] Machine table and spindle area clean
+- [ ] Tool changer/turret area free of debris
+- [ ] Electrical panels closed and secure
 
 ### Step 3: Safety Systems Check
-- [ ] Emergency stop button accessible and functional
-- [ ] Door interlocks working (test opening and closing)
-- [ ] Safety guards all in place
-- [ ] Spindle cover operational
-- [ ] All warning lights functional
+- [ ] Emergency stop button accessible and functional (test press)
+- [ ] Door interlocks working (test opening and closing doors)
+- [ ] Safety guards all in place and properly secured
+- [ ] Spindle cover operational and closes properly
+- [ ] All warning lights functional (test if possible)
+- [ ] Safety mats/sensors operational (if applicable)
+- [ ] Fire extinguisher accessible and in date (if required)
 
 ### Step 4: Equipment Function Test
-1. Power on machine
-2. Verify all lights and displays illuminate
-3. Verify spindle can rotate freely (no binding)
-4. Check rapid movements in all axes (rapid traverse, no load)
-5. Test coolant flow (observe coolant dripping from nozzles)
-6. Verify tool changer moves smoothly
+- [ ] Power on machine - all lights and displays illuminate correctly
+- [ ] CNC control system boots up without errors
+- [ ] Spindle can rotate freely (no binding or unusual sounds)
+- [ ] All axes move smoothly (test rapid traverse in X, Y, Z - no load)
+- [ ] Coolant flow operational (observe coolant dripping from nozzles)
+- [ ] Tool changer moves smoothly and indexes correctly
+- [ ] Machine returns to home position accurately
+- [ ] All axis limit switches functional
+- [ ] Spindle brake releases properly
 
 ### Step 5: Assess Equipment Condition
-- **If all checks pass**: Proceed to setup
-- **If any check fails**: Do NOT operate machine
-  - Tag machine with "OUT OF SERVICE" tag
-  - Notify supervisor immediately
-  - Report issue to maintenance
+- [ ] All visual inspections passed
+- [ ] All safety systems verified functional
+- [ ] All equipment function tests passed
+- [ ] No maintenance tags or warnings present
+- [ ] Machine ready for operation
+
+**If all checks pass**: Proceed to setup
+**If any check fails**: Do NOT operate machine
+  - [ ] Tag machine with "OUT OF SERVICE" tag
+  - [ ] Notify supervisor immediately
+  - [ ] Report issue to maintenance
+  - [ ] Document issue in maintenance log
+
+### Step 6: Pre-Operation Approval
+- [ ] All checklist items completed and verified
+- [ ] Operator signature: _________________________ Date: ___________
+- [ ] Supervisor approval (if required): _________________________ Date: ___________
+- [ ] Machine ID: _________________________
+- [ ] Work order number: _________________________
+
+**Approved for operation**: ☐ Yes  ☐ No
+
+**Notes/Concerns**:
+_____________________________________________________________
+_____________________________________________________________
 
 ---
 
