@@ -33,6 +33,7 @@ This section contains operational manuals and technical specifications for all m
 4. Remove finished parts safely
 5. Clean work area and equipment
 6. Log operation hours
+7. This is a new line
 
 **Maintenance Schedule:**
 - Daily: Visual inspection, chip removal

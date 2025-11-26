@@ -104,8 +104,8 @@ This work instruction provides step-by-step procedures for operating CNC machini
 **Approved for operation**: ☐ Yes  ☐ No
 
 **Notes/Concerns**:
-_____________________________________________________________
-_____________________________________________________________
+
+_(Use this space to document any concerns, observations, or special conditions)_
 
 ---
 
