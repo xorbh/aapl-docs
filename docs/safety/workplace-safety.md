@@ -176,7 +176,33 @@ All injuries and incidents must be reported:
 
 ### Investigation Process
 
-Each incident triggering investigation:
+```mermaid
+graph TD
+    A["🚨 Incident<br/>Occurs"] --> B["📞 Report to<br/>Supervisor<br/>Immediately"]
+    B --> C["🏥 Provide First<br/>Aid/Medical Care"]
+    C --> D["📸 Document Scene<br/>& Preserve Evidence"]
+    D --> E["👥 Conduct Witness<br/>Interviews"]
+    E --> F["🔎 Root Cause<br/>Analysis"]
+    F --> G["🔍 Identify All<br/>Contributing<br/>Factors"]
+    G --> H["✍️ Complete<br/>Incident Report"]
+    H --> I["👨‍💼 Management<br/>Review"]
+    I --> J["⚙️ Develop<br/>Corrective<br/>Actions"]
+    J --> K["✅ Implement<br/>Preventive<br/>Measures"]
+    K --> L["🧪 Test &<br/>Verify<br/>Effectiveness"]
+    L --> M{Effective?}
+    M -->|No| J
+    M -->|Yes| N["📋 Close<br/>Incident<br/>Report"]
+    N --> O["📊 Track Trends<br/>& Share Learnings"]
+
+    style A fill:#ff5252,color:#fff
+    style B fill:#ffcdd2
+    style C fill:#fff3cd
+    style N fill:#c8e6c9
+    style O fill:#e1f5fe
+```
+
+**Steps:**
+
 1. **Scene Assessment**: Take photos, preserve evidence
 2. **Witness Interviews**: Document statements from witnesses
 3. **Root Cause Analysis**: Determine what happened and why
@@ -301,6 +327,33 @@ Areas with noise ≥85 dB(A):
 - Fire suppression system professionally maintained
 
 ### Emergency Evacuation
+
+```mermaid
+graph TD
+    A["🚨 Alarm Sounds<br/>or All Clear"] --> B{Evacuation<br/>Required?}
+    B -->|No| C["✅ Return to<br/>Normal Operations"]
+    B -->|Yes| D["🚪 Leave Area<br/>Immediately"]
+    D --> E["🏃 Evacuate via<br/>Marked Routes"]
+    E --> F["🚫 Do NOT Use<br/>Elevators"]
+    F --> G["🚶 Go to Assembly<br/>Area"]
+    G --> H["🔢 Report to<br/>Floor Warden"]
+    H --> I["✍️ Warden Takes<br/>Headcount"]
+    I --> J{All<br/>Accounted?}
+    J -->|No| K["📞 Notify<br/>Emergency<br/>Services"]
+    J -->|Yes| L["📋 Report to<br/>Incident Commander"]
+    L --> M["⏳ Await<br/>All Clear"]
+    M --> N{Emergency<br/>Ended?}
+    N -->|No| M
+    N -->|Yes| O["✅ Return to<br/>Building"]
+
+    style A fill:#ff5252,color:#fff
+    style D fill:#ffcdd2
+    style E fill:#fff3cd
+    style O fill:#c8e6c9
+    style G fill:#e1f5fe
+```
+
+**Key Points:**
 
 - Evacuation routes clearly marked
 - Exits kept clear at all times
