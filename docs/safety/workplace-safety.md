@@ -61,6 +61,9 @@ Controls implemented in order of preference:
 
 ## Personal Protective Equipment (PPE)
 
+![Safety Equipment](https://images.unsplash.com/photo-1581286916550-e323be2ae537?w=800&q=80)
+*Proper safety equipment and personal protective equipment*
+
 ### Required PPE by Department
 
 **Production Floor**:
@@ -92,6 +95,9 @@ Controls implemented in order of preference:
 - Training on proper use and care required
 
 ## Lock-Out/Tag-Out (LOTO) Procedures
+
+![LOTO Lockout](https://images.unsplash.com/photo-1581092916056-0c4c3acd3789?w=800&q=80)
+*Lockout/Tagout safety procedures for equipment maintenance*
 
 ### LOTO Requirements
 
@@ -191,6 +197,9 @@ Early reporting enables intervention before serious injury.
 
 ## Chemical Safety
 
+![Chemical Safety](https://images.unsplash.com/photo-1532187863486-abbb9db8c5e9?w=800&q=80)
+*Safe handling and storage of hazardous chemicals*
+
 ### Chemical Inventory
 
 All hazardous chemicals maintained in system with:
@@ -245,6 +254,9 @@ Areas with noise ≥85 dB(A):
 - Follow-up medical care if loss detected
 
 ## Fire Safety
+
+![Fire Safety](https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&q=80)
+*Fire safety equipment and emergency preparedness*
 
 ### Fire Prevention
 

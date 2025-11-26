@@ -6,12 +6,18 @@ This document outlines the standard manufacturing processes used in our facility
 
 ## Production Flow
 
+![Manufacturing Facility](https://images.unsplash.com/photo-1513828583688-c52646db42da?w=800&q=80)
+*Modern manufacturing facility with organized production areas*
+
 ### 1. Raw Material Preparation
 
 - **Material Inspection**: All incoming raw materials must be inspected against specifications
 - **Storage**: Materials stored in designated areas maintaining proper temperature and humidity
 - **Handling**: Use appropriate equipment (forklifts, pallet jacks) for material movement
 - **Documentation**: Log all material batches in the inventory management system
+
+![Material Handling](https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80)
+*Proper material handling and storage procedures*
 
 ### 2. Setup Phase
 
@@ -21,6 +27,9 @@ This document outlines the standard manufacturing processes used in our facility
 - Document setup completion and approval by shift supervisor
 
 ### 3. Production Run
+
+![CNC Manufacturing](https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&q=80)
+*Precision CNC machinery in operation*
 
 - Follow equipment-specific operating procedures
 - Monitor production metrics continuously

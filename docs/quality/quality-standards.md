@@ -17,6 +17,9 @@ Annual audits are conducted to maintain certification status.
 
 ## Inspection Procedures
 
+![Quality Inspection](https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80)
+*Quality control technician performing detailed inspection*
+
 ### Incoming Material Inspection (IQC)
 
 All raw materials and purchased components require:
@@ -190,6 +193,9 @@ Required elements:
 Corrective actions tracked to completion monthly in management review.
 
 ## Calibration and Measurement
+
+![Precision Measurement](https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&q=80)
+*Precision measurement equipment for quality verification*
 
 ### Inspection Equipment
 

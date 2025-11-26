@@ -6,6 +6,9 @@ Effective procurement ensures timely availability of quality materials at compet
 
 ## Procurement Strategy
 
+![Supply Chain Management](https://images.unsplash.com/photo-1586528116177-e10c17f5f13b?w=800&q=80)
+*Efficient supply chain and procurement operations*
+
 ### Strategic Sourcing Objectives
 
 1. **Quality**: Consistent material quality meeting specifications

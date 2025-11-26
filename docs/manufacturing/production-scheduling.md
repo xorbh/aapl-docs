@@ -6,6 +6,9 @@ Production scheduling coordinates manufacturing operations to meet customer deli
 
 ## Scheduling Process
 
+![Production Planning](https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80)
+*Production planning and scheduling coordination*
+
 ### Weekly Planning Meeting
 
 Held every Monday at 8:00 AM with:

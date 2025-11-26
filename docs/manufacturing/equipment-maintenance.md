@@ -6,6 +6,9 @@ Equipment is critical to our operational success. Preventive maintenance reduces
 
 ## Maintenance Strategy
 
+![Equipment Maintenance](https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&q=80)
+*Preventive maintenance on industrial equipment*
+
 ### Maintenance Types
 
 **Preventive Maintenance (PM)**:
@@ -105,6 +108,9 @@ Generated automatically 2 weeks before PM due date:
 
 ## Maintenance Execution
 
+![Maintenance Technician](https://images.unsplash.com/photo-1487837647815-bbb3ce3c3efb?w=800&q=80)
+*Skilled maintenance technician performing equipment service*
+
 ### Maintenance Personnel
 
 **Skill Levels**:
@@ -133,6 +139,9 @@ Generated automatically 2 weeks before PM due date:
 - Warning signs and barriers in place
 
 ## Predictive Maintenance Program
+
+![Thermal Imaging](https://images.unsplash.com/photo-1581092162562-40038f5105ce?w=800&q=80)
+*Thermal imaging for predictive maintenance diagnostics*
 
 ### Condition Monitoring
 
