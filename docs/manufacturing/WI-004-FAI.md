@@ -13,7 +13,7 @@
 First Article Inspection (FAI) is a critical quality control gate that validates the manufacturing process before full-scale production begins. FAI ensures the first part produced meets all engineering specifications and design intent.
 
 **When FAI is Required**:
-- Every new part or work order
+- Every new part or work order has to be approved
 - New supplier or manufacturing location
 - Design or process changes
 - Equipment changes or new tooling
