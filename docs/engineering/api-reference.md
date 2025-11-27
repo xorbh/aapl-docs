@@ -7,7 +7,7 @@ This section contains operational manuals and technical specifications for all m
 ## Equipment Categories
 
 ### CNC Machining Centers
-test
+test2
 
 **Equipment ID:** MIL-001 to MIL-005
 
