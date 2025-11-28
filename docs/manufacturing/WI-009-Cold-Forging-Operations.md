@@ -221,6 +221,9 @@ This work instruction provides detailed procedures for performing cold forging o
 
 ## Step 4: Machine Parameter Setup
 
+![Control Panel Instructions](../images/instructions.jpg)
+*Control panel operation sequence: Start → Stop → Pause 30 seconds → Activate*
+
 ### Equipment Parameter Selection
 
 Based on material type, size, and part configuration:
