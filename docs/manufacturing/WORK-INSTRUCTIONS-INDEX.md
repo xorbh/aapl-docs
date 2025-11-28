@@ -42,6 +42,7 @@ This index provides a quick reference to all manufacturing work instructions (WI
 | **WI-001** | CNC Machining Operations | 1 | Continuous | Trained CNC Operator |
 | **WI-005** | Precision Grinding Operations | 3 | Continuous | Trained Grinding Operator |
 | **WI-006** | Welding Operations | 4 | Varies | Certified Welder |
+| **WI-009** | Cold Forging Operations | 5 | Continuous | Certified Cold Forging Operator |
 
 **WI-001 Covers**:
 - Pre-operation equipment inspection
@@ -68,6 +69,15 @@ This index provides a quick reference to all manufacturing work instructions (WI
 - Parameter selection
 - Welding execution
 - Weld inspection
+- Cleanup and finishing
+
+**WI-009 Covers**:
+- Forging machine setup
+- Material preparation and lubrication
+- Die installation and alignment
+- Parameter selection
+- Forging execution
+- Part quality inspection
 - Cleanup and finishing
 
 ---
@@ -131,7 +141,8 @@ Typical manufacturing flow and associated work instructions:
 3. PRODUCTION RUN
    ├─ WI-001: CNC Machining Operations
    ├─ WI-005: Precision Grinding Operations
-   └─ WI-006: Welding Operations
+   ├─ WI-006: Welding Operations
+   └─ WI-009: Cold Forging Operations
 
 4. QUALITY GATES
    ├─ WI-004: First Article Inspection (FAI)
@@ -156,6 +167,7 @@ Typical manufacturing flow and associated work instructions:
 - **Machining**: WI-001
 - **Grinding** (if required): WI-005
 - **Welding** (if required): WI-006
+- **Cold Forging** (if required): WI-009
 - **Assembly** (if required): WI-007
 - **Inspection**: WI-004, WI-008
 
@@ -164,6 +176,7 @@ Typical manufacturing flow and associated work instructions:
 - **Machining**: WI-001
 - **Grinding** (if required): WI-005
 - **Welding** (if required): WI-006 (special procedures)
+- **Cold Forging** (if required): WI-009
 - **Assembly** (if required): WI-007
 - **Inspection**: WI-004, WI-008
 
@@ -280,6 +293,21 @@ Typical manufacturing flow and associated work instructions:
 
 ---
 
+### WI-009: Cold Forging Operations
+
+**File**: `WI-009-Cold-Forging-Operations.md`
+**Scope**: Cold forging presses and multi-station forging systems
+**Duration**: Full shift operation
+**Critical Sections**:
+- Pre-Operation Setup (Step 1)
+- Material Preparation (Step 2)
+- Die Setup & Installation (Step 3)
+- Machine Parameter Setup (Step 4)
+- Forging Execution (Step 6)
+- Part Quality Inspection (Step 7)
+
+---
+
 ## Training Requirements
 
 ### To Use WI-001 (CNC Machining)
@@ -296,6 +324,12 @@ Typical manufacturing flow and associated work instructions:
 - [ ] AWS Certified Welder (or equivalent)
 - [ ] Material-Specific Certification
 - [ ] Completed Equipment-Specific Training
+
+### To Use WI-009 (Cold Forging)
+- [ ] Cold Forging Operator Certification
+- [ ] Material-Specific Training
+- [ ] Completed Equipment-Specific Training
+- [ ] Current Safety Certification
 
 ### To Use WI-004 & WI-008 (Inspection)
 - [ ] Completed Quality Inspection Training
@@ -339,6 +373,7 @@ All work instruction procedures include specific safety sections. Key safety pri
 | 006 | Welding Operations | 2024-11-26 | 1.0 | Initial release |
 | 007 | Assembly & Testing | 2024-11-26 | 1.0 | Initial release |
 | 008 | Quality Inspection | 2024-11-26 | 1.0 | Initial release |
+| 009 | Cold Forging Operations | 2024-11-26 | 1.0 | Initial release |
 
 ---
 
