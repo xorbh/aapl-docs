@@ -12,7 +12,7 @@
 
 This quick reference helps you diagnose and fix common equipment problems quickly. Find your equipment type and problem, then follow the "Check" and "Solution" steps.
 
-**When to call maintenance**: If solution doesn't work after 2-3 attempts, stop and call maintenance.
+**When to call maintenance**: If solution doesn't work after 2-3 attempts, stop and call maintenance. Call them on +91 7259388677
 
 ---
 
