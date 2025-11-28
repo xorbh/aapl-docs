@@ -79,6 +79,8 @@ This work instruction provides step-by-step procedures for operating CNC machini
 - [ ] Machine returns to home position accurately
 - [ ] All axis limit switches functional
 - [ ] Spindle brake releases properly
+- [ ] Way lubrication system operational (verify oil level adequate and pump cycling)
+- [ ] Lubrication visible on ways and ball screws (observe oil film on exposed surfaces)
 
 ### Step 5: Assess Equipment Condition
 - [ ] All visual inspections passed
@@ -104,8 +106,8 @@ This work instruction provides step-by-step procedures for operating CNC machini
 **Approved for operation**: ☐ Yes  ☐ No
 
 **Notes/Concerns**:
-
-_(Use this space to document any concerns, observations, or special conditions)_
+_____________________________________________________________
+_____________________________________________________________
 
 ---
 
